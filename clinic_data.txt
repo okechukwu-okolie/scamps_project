@@ -1,0 +1,2 @@
+General,P103,elizabeth okolie,21,1, Muba Abiru str,Ikorodu
+General,P101,samuel okolie,23,1, Muba Abiru str,Ikorodu

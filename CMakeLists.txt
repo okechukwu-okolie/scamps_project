@@ -9,4 +9,9 @@ file(GLOB_RECURSE SOURCES
     src/*.cpp
 )
 
-add_executable(SCAPMS ${SOURCES})
+if(WIN32)
+    add_executable(SCAPMS WIN32 ${SOURCES})
+    target_link_libraries(SCAPMS PRIVATE user32 gdi32)
+else()
+    message(FATAL_ERROR "SCAPMS currently requires the native Windows GUI API.")
+endif()

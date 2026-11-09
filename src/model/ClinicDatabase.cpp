@@ -49,6 +49,7 @@ namespace scapms::model {
 
     // Returns a reference to the complete list of patient records
     std::vector<PatientRecord*>& ClinicDatabase::getPatients() { return patients; }
+    const std::vector<PatientRecord*>& ClinicDatabase::getPatients() const { return patients; }
 
     // Adds a patient to the clinic's waiting queue
     void ClinicDatabase::enqueuePatient(PatientRecord* record) {
@@ -94,6 +95,7 @@ namespace scapms::model {
 
     // Returns a reference to the list of scheduled appointments
     std::vector<Appointment>& ClinicDatabase::getAppointments() { return appointments; }
+    const std::vector<Appointment>& ClinicDatabase::getAppointments() const { return appointments; }
 
     // Updates the recent patient cache using a FIFO/sliding window approach
     void ClinicDatabase::updateRecentCache(PatientRecord* record) {

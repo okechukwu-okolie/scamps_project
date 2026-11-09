@@ -48,6 +48,7 @@ namespace scapms::model {
         bool deletePatient(const std::string& id);
         PatientRecord* findPatientById(const std::string& id);
         std::vector<PatientRecord*>& getPatients();
+        const std::vector<PatientRecord*>& getPatients() const;
 
         // --- Waiting Queue Operations (FIFO) ---
         void enqueuePatient(PatientRecord* record);
@@ -63,6 +64,7 @@ namespace scapms::model {
         // --- Appointment Management ---
         void addAppointment(const Appointment& appt);
         std::vector<Appointment>& getAppointments();
+        const std::vector<Appointment>& getAppointments() const;
 
         // --- Recent Patient Cache Management ---
         void updateRecentCache(PatientRecord* record);

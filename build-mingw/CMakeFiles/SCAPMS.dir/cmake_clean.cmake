@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/SCAPMS.dir/src/controller/ClinicManager.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/controller/ClinicManager.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/controller/SearchEngine.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/controller/SearchEngine.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/gui/AdminPanel.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/gui/AdminPanel.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/gui/AppointmentPanel.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/gui/AppointmentPanel.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/gui/MainWindow.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/gui/MainWindow.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/gui/PatientPanel.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/gui/PatientPanel.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/main.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/main.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/model/Appointment.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/model/Appointment.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/model/ClinicDatabase.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/model/ClinicDatabase.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/model/EmergencyPatient.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/model/EmergencyPatient.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/model/FollowUpPatient.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/model/FollowUpPatient.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/model/GeneralPatient.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/model/GeneralPatient.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/model/PatientRecord.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/model/PatientRecord.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/utils/FileHandler.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/utils/FileHandler.cpp.obj.d"
+  "CMakeFiles/SCAPMS.dir/src/utils/IDGenerator.cpp.obj"
+  "CMakeFiles/SCAPMS.dir/src/utils/IDGenerator.cpp.obj.d"
+  "SCAPMS.exe"
+  "SCAPMS.exe.manifest"
+  "SCAPMS.pdb"
+  "libSCAPMS.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/SCAPMS.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
